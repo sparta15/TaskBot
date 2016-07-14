@@ -1,0 +1,28 @@
+{
+  "name": "ciclopbore_bot",
+  "version": "1.0.0",
+  "description": "Bot for remember your daily goals",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sparta15/CiclopBore_bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "dialy",
+    "goals"
+  ],
+  "author": "Guillermo Pastor Diez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sparta15/CiclopBore_bot/issues"
+  },
+  "homepage": "https://github.com/sparta15/CiclopBore_bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.23.3"
+  }
+}
