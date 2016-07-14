@@ -38,8 +38,9 @@ function goalsDiaryList (user) {
 
 function filterByDate (task) {
   let today = new Date();
-  console.log(task.create);
-  return today > task.create
+  let taskDate = new Date(task.create);
+
+  return ((today.getTime() - taskDate.getTime()) < 1);
 }
 
 function filterByUser (user) {
